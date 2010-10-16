@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.widget.DatePicker;
+import android.widget.Toast;
 import android.widget.DatePicker.OnDateChangedListener;
 import android.widget.TextView;
 
@@ -45,6 +46,9 @@ public class GoToDateActivity extends Activity{
 			public void onDateChanged(DatePicker view, int year,
 					int monthOfYear, int dayOfMonth) {
 				// TODO Auto-generated method stub
+				if(year>=2038||year<=19){
+					Toast.makeText(GoToDateActivity.this, R.string.date_wrong, Toast.LENGTH_SHORT);
+				}
 				Time changedDate = new Time();
 				changedDate.set(dayOfMonth, monthOfYear, year);
 				long millis = changedDate.toMillis(false);
