@@ -47,7 +47,7 @@ public class GoToDateActivity extends Activity{
 					int monthOfYear, int dayOfMonth) {
 				// TODO Auto-generated method stub
 				if(year>=2038||year<=1970){
-					Toast.makeText(GoToDateActivity.this, R.string.date_wrong, Toast.LENGTH_SHORT);
+					checked_solar_date.setText(R.string.date_wrong);
 				}
 				Time changedDate = new Time();
 				changedDate.set(dayOfMonth, monthOfYear, year);
