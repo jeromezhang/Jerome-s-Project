@@ -59,6 +59,7 @@ public class GoToDateActivity extends Activity{
         });
 	}
 
+	//fix cr_2
 	@Override
 	protected void onResume() {
 		// TODO Auto-generated method stub
