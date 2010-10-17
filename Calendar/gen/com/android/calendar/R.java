@@ -356,6 +356,9 @@ public final class R {
          repeats daily 
          */
         public static final int daily=0x7f08004b;
+        /**  fwr687 
+         */
+        public static final int date_wrong=0x7f080077;
         /**  This is a label on a menu item. Pressing this menu item displays the
          Day view. 
          */

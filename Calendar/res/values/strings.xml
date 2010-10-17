@@ -420,5 +420,6 @@
 <string name="check_lunar_date">check lunar date</string><!-- fwr687 -->
 <string name="set_solar_date">set a solar date to check</string><!-- fwr687 -->
 <string name="go_to_date">go to date</string><!-- fwr687 -->
-<string name="go_to_date_today_lable">"  Today:""</string><!-- fwr687 -->
+<string name="go_to_date_today_lable">"  Today:"</string><!-- fwr687 -->
+<string name="date_wrong">The date must in 1968~2037</string><!-- fwr687 -->
 </resources>
