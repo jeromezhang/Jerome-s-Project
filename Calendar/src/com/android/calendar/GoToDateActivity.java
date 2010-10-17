@@ -46,7 +46,7 @@ public class GoToDateActivity extends Activity{
 			public void onDateChanged(DatePicker view, int year,
 					int monthOfYear, int dayOfMonth) {
 				// TODO Auto-generated method stub
-				if(year>=2038||year<=19){
+				if(year>=2038||year<=1970){
 					Toast.makeText(GoToDateActivity.this, R.string.date_wrong, Toast.LENGTH_SHORT);
 				}
 				Time changedDate = new Time();
