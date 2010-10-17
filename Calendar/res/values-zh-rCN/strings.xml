@@ -148,7 +148,6 @@
 
     <string name="preferences_show_week_info">显示周序号</string>
     <string name="week_numbers">周</string>
-     <string name="lunar_lable">"   阴历"</string><!-- fwr687 -->
      <string name="year">"年"</string><!-- fwr687 -->
     <string name="check_lunar_date">"查看阴历"</string><!-- fwr687 -->
 	<string name="set_solar_date">"选择查看的日期"</string><!-- fwr687 -->

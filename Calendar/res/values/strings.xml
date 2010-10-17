@@ -409,7 +409,7 @@
     
     <!-- Settings check box label to show Chinese lunar information -->
     <string name="preferences_show_lunar_title">Show lunar calendar</string>
-     <string name="lunar_lable">"   阴历"</string><!-- fwr687 -->
+
      <string name="year">"年"</string><!-- fwr687 -->
 <!-- Lunar Calendar using below ... -->
     <string name="leap">闰</string>
@@ -421,5 +421,5 @@
 <string name="set_solar_date">set a solar date to check</string><!-- fwr687 -->
 <string name="go_to_date">go to date</string><!-- fwr687 -->
 <string name="go_to_date_today_lable">"  Today:"</string><!-- fwr687 -->
-<string name="date_wrong">The date must in 1968~2037</string><!-- fwr687 -->
+<string name="date_wrong">The date must in 1970~2037</string><!-- fwr687 -->
 </resources>

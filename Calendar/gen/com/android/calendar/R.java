@@ -342,7 +342,7 @@ public final class R {
         public static final int change_response_title=0x7f080059;
         /**  fwr687 
          */
-        public static final int check_lunar_date=0x7f080073;
+        public static final int check_lunar_date=0x7f080072;
         /**  Toast message displayed when a new event is created 
          */
         public static final int creating_event=0x7f080023;
@@ -358,7 +358,7 @@ public final class R {
         public static final int daily=0x7f08004b;
         /**  fwr687 
          */
-        public static final int date_wrong=0x7f080077;
+        public static final int date_wrong=0x7f080076;
         /**  This is a label on a menu item. Pressing this menu item displays the
          Day view. 
          */
@@ -451,11 +451,11 @@ public final class R {
         /**  fwr687 
  fwr687 
          */
-        public static final int go_to_date=0x7f080075;
+        public static final int go_to_date=0x7f080074;
         /**  fwr687 
  fwr687 
          */
-        public static final int go_to_date_today_lable=0x7f080076;
+        public static final int go_to_date_today_lable=0x7f080075;
         /**  This is a label on a menu item. Pressing this menu
          item takes the user to the current day (today) in whatever view
          (Day view, Week view, Agenda view, Month view) they are currently in. 
@@ -480,7 +480,7 @@ public final class R {
  Lunar Calendar using below ... 
  Lunar Calendar using below ... 
          */
-        public static final int leap=0x7f080070;
+        public static final int leap=0x7f08006f;
         /**  This is shown while the calendar events are being loading to the screen. 
          */
         public static final int loading=0x7f08003e;
@@ -496,7 +496,6 @@ public final class R {
  "My calendar" account 
          */
         public static final int local_account=0x7f080015;
-        public static final int lunar_lable=0x7f08006e;
         public static final int menu_go_date=0x7f080017;
         /**  This is a label on a menu item. Pressing this menu item allows the
          user to view and edit his Settings (or Preferences) 
@@ -633,7 +632,7 @@ public final class R {
         public static final int preferences_show_lunar_title=0x7f08006d;
         /**  Lunar Calendar END. 
          */
-        public static final int preferences_show_week_info=0x7f080071;
+        public static final int preferences_show_week_info=0x7f080070;
         /**  This is the title of the screen for setting user preferences. 
          */
         public static final int preferences_title=0x7f08005a;
@@ -665,7 +664,7 @@ public final class R {
         /**  fwr687 
  fwr687 
          */
-        public static final int set_solar_date=0x7f080074;
+        public static final int set_solar_date=0x7f080073;
         /**  This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. 
          */
@@ -705,7 +704,7 @@ public final class R {
         /**  Label for the local timezone 
          */
         public static final int view_event_timezone_label=0x7f08003b;
-        public static final int week_numbers=0x7f080072;
+        public static final int week_numbers=0x7f080071;
         /**  This is a label on a menu item. Pressing this menu item displays the
          Week view. 
          */
@@ -725,10 +724,7 @@ public final class R {
         /**  This is the label for the location of an event 
          */
         public static final int where_label=0x7f080004;
-        /**  fwr687 
- fwr687 
-         */
-        public static final int year=0x7f08006f;
+        public static final int year=0x7f08006e;
         /**  Example: "Yearly (on April 15)" 
          */
         public static final int yearly=0x7f080052;
